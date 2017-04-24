@@ -17,6 +17,10 @@ public class qwqw {
 
 		SqlSession session = sf.openSession();
 
+		
+		
+		
+		
 		User u = new User();
 		u.setName("bbb");
 		u=session.selectOne("selectbyid",10);
